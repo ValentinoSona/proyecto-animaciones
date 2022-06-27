@@ -53,7 +53,7 @@ blanco 255, 255, 255
 .cabecera__logo{
     width: 250px;
     padding: 20px 0 0 10px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .cabecera__logo:hover{
@@ -65,9 +65,6 @@ blanco 255, 255, 255
     width: 30%;
     padding-top: 5px;
     padding-bottom: 5px;
-
-    
-
 }
 
 .cabecera__lista{
@@ -88,8 +85,8 @@ blanco 255, 255, 255
 
 .cabecera__lista__item:hover{
     transform: scale(1.2);
-    border: 2px solid white;
-    margin-right: 5px;
+    border: 1px solid white;
+    margin-right: 10px;
 }
 
 .material-symbols-outlined:hover{
@@ -136,6 +133,11 @@ blanco 255, 255, 255
     width: 50%;
     margin: 10px 0 30px 80px;
     background-color: rgb(247, 6, 26);
+}
+
+.seguir:hover{
+    background-color: black;
+    color: red;
 }
 
 .main__imagen{
@@ -206,8 +208,6 @@ blanco 255, 255, 255
     color: rgb(255, 0, 0);
     padding: 0 0 30px 20px;
     font-size: 30px;
-    
-    
 }
 
 .copy{
@@ -500,6 +500,7 @@ blanco 255, 255, 255
         grid-area: main-section1;
         flex-direction: column;
         height: 60vh;
+        width: 90vw;
     }
 
     .main h2{
