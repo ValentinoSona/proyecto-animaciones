@@ -53,6 +53,11 @@ blanco 255, 255, 255
 .cabecera__logo{
     width: 250px;
     padding: 20px 0 0 10px;
+    transition: all 2s;
+}
+
+.cabecera__logo:hover{
+    transform: scale(1.5);
 }
 
 .cabecera__buscador{        
@@ -79,6 +84,18 @@ blanco 255, 255, 255
     color: white;
     padding: 20px;
     font-size: 20px;
+}
+
+.cabecera__lista__item:hover{
+    transform: scale(1.2);
+    border: 2px solid white;
+    margin-right: 5px;
+}
+
+.material-symbols-outlined:hover{
+    transform: scale(1.2);
+    border: 2px solid white;
+    margin-right: 5px;
 }
 
 .link{
