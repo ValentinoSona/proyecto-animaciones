@@ -135,6 +135,11 @@ blanco 255, 255, 255
     background-color: rgb(247, 6, 26);
 }
 
+.seguir:hover{
+    background-color: black;
+    color: red;
+}
+
 .main__imagen{
      width: 50%;
 }
@@ -203,8 +208,6 @@ blanco 255, 255, 255
     color: rgb(255, 0, 0);
     padding: 0 0 30px 20px;
     font-size: 30px;
-    
-    
 }
 
 .copy{
